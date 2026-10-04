@@ -5,15 +5,15 @@ through the [NeetCode Machine Learning](https://neetcode.io/practice/machine-lea
 
 The end goal: **build a mini GPT from scratch**.
 
-## Progress (6/36 completed)
+## Progress (8/36 completed)
 
 | Directory | Files | Solved | Status |
 |-----------|-------|--------|--------|
-| `foundations/` | 17 | 6 | 🟡 6/17 |
+| `foundations/` | 17 | 8 | 🟡 8/17 |
 | `model/` | 11 | 0 | ⬜ 0/11 |
 | `data/` | 6 | 0 | ⬜ 0/6 |
 | Root (`train.py`, `generate.py`) | 2 | 0 | ⬜ 0/2 |
-| **Total** | **36** | **6** | **🟡 6/36** |
+| **Total** | **36** | **8** | **🟡 8/36** |
 
 ---
 
@@ -55,9 +55,9 @@ mini-GPT/
     ├── activations.py           # ✅ Activation functions (Sigmoid, ReLU)
     ├── softmax.py               # ✅ Softmax activation
     ├── loss.py                  # ✅ Binary & Categorical Cross Entropy Loss
-    ├── neuron.py                # Single neuron
+    ├── neuron.py                # ✅ Single neuron
     ├── mlp.py                   # Multilayer perceptron
-    ├── backprop.py              # Backpropagation
+    ├── backprop.py              # ✅ Backpropagation
     ├── multi_layer_backprop.py  # Multi-layer backprop
     ├── weight_init.py           # Weight initialization
     ├── dead_relu_detector.py    # Dead ReLU detector
@@ -79,9 +79,9 @@ mini-GPT/
 - [x] `activations.py` — Sigmoid, ReLU
 - [x] `softmax.py` — Softmax activation
 - [x] `loss.py` — Cross-entropy loss (BCE & CCE)
-- [ ] `neuron.py` — Single neuron
+- [x] `neuron.py` — Single neuron
 - [ ] `mlp.py` — Multilayer perceptron
-- [ ] `backprop.py` — Backpropagation
+- [x] `backprop.py` — Backpropagation
 - [ ] `multi_layer_backprop.py` — Multi-layer backprop
 - [ ] `weight_init.py` — Weight initialization
 - [ ] `dead_relu_detector.py` — Dead ReLU detector
