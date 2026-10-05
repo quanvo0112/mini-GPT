@@ -5,15 +5,15 @@ through the [NeetCode Machine Learning](https://neetcode.io/practice/machine-lea
 
 The end goal: **build a mini GPT from scratch**.
 
-## Progress (8/36 completed)
+## Progress (10/36 completed)
 
 | Directory | Files | Solved | Status |
 |-----------|-------|--------|--------|
-| `foundations/` | 17 | 8 | 🟡 8/17 |
+| `foundations/` | 17 | 10 | 🟡 10/17 |
 | `model/` | 11 | 0 | ⬜ 0/11 |
 | `data/` | 6 | 0 | ⬜ 0/6 |
 | Root (`train.py`, `generate.py`) | 2 | 0 | ⬜ 0/2 |
-| **Total** | **36** | **8** | **🟡 8/36** |
+| **Total** | **36** | **10** | **🟡 10/36** |
 
 ---
 
@@ -56,9 +56,9 @@ mini-GPT/
     ├── softmax.py               # ✅ Softmax activation
     ├── loss.py                  # ✅ Binary & Categorical Cross Entropy Loss
     ├── neuron.py                # ✅ Single neuron
-    ├── mlp.py                   # Multilayer perceptron
+    ├── mlp.py                   # ✅ Multilayer perceptron
     ├── backprop.py              # ✅ Backpropagation
-    ├── multi_layer_backprop.py  # Multi-layer backprop
+    ├── multi_layer_backprop.py  # ✅ Multi-layer backprop
     ├── weight_init.py           # Weight initialization
     ├── dead_relu_detector.py    # Dead ReLU detector
     ├── pytorch_basics.py        # PyTorch basics
@@ -80,9 +80,9 @@ mini-GPT/
 - [x] `softmax.py` — Softmax activation
 - [x] `loss.py` — Cross-entropy loss (BCE & CCE)
 - [x] `neuron.py` — Single neuron
-- [ ] `mlp.py` — Multilayer perceptron
+- [x] `mlp.py` — Multilayer perceptron
 - [x] `backprop.py` — Backpropagation
-- [ ] `multi_layer_backprop.py` — Multi-layer backprop
+- [x] `multi_layer_backprop.py` — Multi-layer backprop
 - [ ] `weight_init.py` — Weight initialization
 - [ ] `dead_relu_detector.py` — Dead ReLU detector
 - [ ] `pytorch_basics.py` — PyTorch basics
