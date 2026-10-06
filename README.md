@@ -5,15 +5,15 @@ through the [NeetCode Machine Learning](https://neetcode.io/practice/machine-lea
 
 The end goal: **build a mini GPT from scratch**.
 
-## Progress (10/36 completed)
+## Progress (12/36 completed)
 
 | Directory | Files | Solved | Status |
 |-----------|-------|--------|--------|
-| `foundations/` | 17 | 10 | 🟡 10/17 |
+| `foundations/` | 17 | 12 | 🟡 12/17 |
 | `model/` | 11 | 0 | ⬜ 0/11 |
 | `data/` | 6 | 0 | ⬜ 0/6 |
 | Root (`train.py`, `generate.py`) | 2 | 0 | ⬜ 0/2 |
-| **Total** | **36** | **10** | **🟡 10/36** |
+| **Total** | **36** | **12** | **🟡 12/36** |
 
 ---
 
@@ -59,9 +59,9 @@ mini-GPT/
     ├── mlp.py                   # ✅ Multilayer perceptron
     ├── backprop.py              # ✅ Backpropagation
     ├── multi_layer_backprop.py  # ✅ Multi-layer backprop
-    ├── weight_init.py           # Weight initialization
+    ├── weight_init.py           # ✅ Weight initialization
     ├── dead_relu_detector.py    # Dead ReLU detector
-    ├── pytorch_basics.py        # PyTorch basics
+    ├── pytorch_basics.py        # ✅ PyTorch basics
     ├── digit_classifier.py      # Handwritten digit classifier (MNIST)
     ├── sentiment.py             # Sentiment analysis
     ├── training_loop.py         # Training loop mechanics
@@ -83,9 +83,9 @@ mini-GPT/
 - [x] `mlp.py` — Multilayer perceptron
 - [x] `backprop.py` — Backpropagation
 - [x] `multi_layer_backprop.py` — Multi-layer backprop
-- [ ] `weight_init.py` — Weight initialization
+- [x] `weight_init.py` — Weight initialization
 - [ ] `dead_relu_detector.py` — Dead ReLU detector
-- [ ] `pytorch_basics.py` — PyTorch basics
+- [x] `pytorch_basics.py` — PyTorch basics
 - [ ] `digit_classifier.py` — Digit classifier
 - [ ] `sentiment.py` — Sentiment analysis
 - [ ] `training_loop.py` — Training loop mechanics
