@@ -5,15 +5,15 @@ through the [NeetCode Machine Learning](https://neetcode.io/practice/machine-lea
 
 The end goal: **build a mini GPT from scratch**.
 
-## Progress (12/36 completed)
+## Progress (14/36 completed)
 
 | Directory | Files | Solved | Status |
 |-----------|-------|--------|--------|
 | `foundations/` | 17 | 12 | 🟡 12/17 |
-| `model/` | 11 | 0 | ⬜ 0/11 |
+| `model/` | 11 | 2 | 🟡 2/11 |
 | `data/` | 6 | 0 | ⬜ 0/6 |
 | Root (`train.py`, `generate.py`) | 2 | 0 | ⬜ 0/2 |
-| **Total** | **36** | **12** | **🟡 12/36** |
+| **Total** | **36** | **14** | **🟡 14/36** |
 
 ---
 
@@ -28,8 +28,8 @@ mini-GPT/
 ├── generate.py                  # Text generation
 │
 ├── model/                       # Attention, Transformer, GPT architecture
-│   ├── normalization.py         # Layer normalization
-│   ├── batch_normalization.py   # Batch normalization
+│   ├── normalization.py         # ✅ Layer normalization
+│   ├── batch_normalization.py   # ✅ Batch normalization
 │   ├── rms_normalization.py     # RMS normalization
 │   ├── embeddings.py            # Word embeddings
 │   ├── positional_encoding.py   # Positional encoding
@@ -92,8 +92,8 @@ mini-GPT/
 - [ ] `training_diagnostics.py` — Training diagnostics
 
 ### Model (`model/`)
-- [ ] `normalization.py` — Layer normalization
-- [ ] `batch_normalization.py` — Batch normalization
+- [x] `normalization.py` — Layer normalization
+- [x] `batch_normalization.py` — Batch normalization
 - [ ] `rms_normalization.py` — RMS normalization
 - [ ] `embeddings.py` — Word embeddings
 - [ ] `positional_encoding.py` — Positional encoding
