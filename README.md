@@ -5,15 +5,15 @@ through the [NeetCode Machine Learning](https://neetcode.io/practice/machine-lea
 
 The end goal: **build a mini GPT from scratch**.
 
-## Progress (14/36 completed)
+## Progress (16/36 completed)
 
 | Directory | Files | Solved | Status |
 |-----------|-------|--------|--------|
-| `foundations/` | 17 | 12 | 🟡 12/17 |
-| `model/` | 11 | 2 | 🟡 2/11 |
+| `foundations/` | 17 | 13 | 🟡 13/17 |
+| `model/` | 11 | 3 | 🟡 3/11 |
 | `data/` | 6 | 0 | ⬜ 0/6 |
 | Root (`train.py`, `generate.py`) | 2 | 0 | ⬜ 0/2 |
-| **Total** | **36** | **14** | **🟡 14/36** |
+| **Total** | **36** | **16** | **🟡 16/36** |
 
 ---
 
@@ -30,7 +30,7 @@ mini-GPT/
 ├── model/                       # Attention, Transformer, GPT architecture
 │   ├── normalization.py         # ✅ Layer normalization
 │   ├── batch_normalization.py   # ✅ Batch normalization
-│   ├── rms_normalization.py     # RMS normalization
+│   ├── rms_normalization.py     # ✅ RMS normalization
 │   ├── embeddings.py            # Word embeddings
 │   ├── positional_encoding.py   # Positional encoding
 │   ├── attention.py             # Self-attention head
@@ -64,7 +64,7 @@ mini-GPT/
     ├── pytorch_basics.py        # ✅ PyTorch basics
     ├── digit_classifier.py      # Handwritten digit classifier (MNIST)
     ├── sentiment.py             # Sentiment analysis
-    ├── training_loop.py         # Training loop mechanics
+    ├── training_loop.py         # ✅ Training loop mechanics
     └── training_diagnostics.py  # Diagnostics & learning rate
 ```
 
@@ -88,13 +88,13 @@ mini-GPT/
 - [x] `pytorch_basics.py` — PyTorch basics
 - [ ] `digit_classifier.py` — Digit classifier
 - [ ] `sentiment.py` — Sentiment analysis
-- [ ] `training_loop.py` — Training loop mechanics
+- [x] `training_loop.py` — Training loop mechanics
 - [ ] `training_diagnostics.py` — Training diagnostics
 
 ### Model (`model/`)
 - [x] `normalization.py` — Layer normalization
 - [x] `batch_normalization.py` — Batch normalization
-- [ ] `rms_normalization.py` — RMS normalization
+- [x] `rms_normalization.py` — RMS normalization
 - [ ] `embeddings.py` — Word embeddings
 - [ ] `positional_encoding.py` — Positional encoding
 - [ ] `attention.py` — Self-attention head
