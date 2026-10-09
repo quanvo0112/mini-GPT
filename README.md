@@ -5,15 +5,15 @@ through the [NeetCode Machine Learning](https://neetcode.io/practice/machine-lea
 
 The end goal: **build a mini GPT from scratch**.
 
-## Progress (16/36 completed)
+### Progress (17/36 completed)
 
 | Directory | Files | Solved | Status |
 |-----------|-------|--------|--------|
-| `foundations/` | 17 | 13 | 🟡 13/17 |
+| `foundations/` | 17 | 14 | 🟡 14/17 |
 | `model/` | 11 | 3 | 🟡 3/11 |
 | `data/` | 6 | 0 | ⬜ 0/6 |
 | Root (`train.py`, `generate.py`) | 2 | 0 | ⬜ 0/2 |
-| **Total** | **36** | **16** | **🟡 16/36** |
+| **Total** | **36** | **17** | **🟡 17/36** |
 
 ---
 
@@ -65,7 +65,7 @@ mini-GPT/
     ├── digit_classifier.py      # Handwritten digit classifier (MNIST)
     ├── sentiment.py             # Sentiment analysis
     ├── training_loop.py         # ✅ Training loop mechanics
-    └── training_diagnostics.py  # Diagnostics & learning rate
+    └── training_diagnostics.py  # ✅ Diagnostics & learning rate
 ```
 
 ---
@@ -89,7 +89,7 @@ mini-GPT/
 - [ ] `digit_classifier.py` — Digit classifier
 - [ ] `sentiment.py` — Sentiment analysis
 - [x] `training_loop.py` — Training loop mechanics
-- [ ] `training_diagnostics.py` — Training diagnostics
+- [x] `training_diagnostics.py` — Training diagnostics
 
 ### Model (`model/`)
 - [x] `normalization.py` — Layer normalization
