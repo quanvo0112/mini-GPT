@@ -5,15 +5,15 @@ through the [NeetCode Machine Learning](https://neetcode.io/practice/machine-lea
 
 The end goal: **build a mini GPT from scratch**.
 
-### Progress (17/36 completed)
+### Progress (18/36 completed)
 
 | Directory | Files | Solved | Status |
 |-----------|-------|--------|--------|
-| `foundations/` | 17 | 14 | 🟡 14/17 |
+| `foundations/` | 17 | 15 | 🟡 15/17 |
 | `model/` | 11 | 3 | 🟡 3/11 |
 | `data/` | 6 | 0 | ⬜ 0/6 |
 | Root (`train.py`, `generate.py`) | 2 | 0 | ⬜ 0/2 |
-| **Total** | **36** | **17** | **🟡 17/36** |
+| **Total** | **36** | **18** | **🟡 18/36** |
 
 ---
 
@@ -60,7 +60,7 @@ mini-GPT/
     ├── backprop.py              # ✅ Backpropagation
     ├── multi_layer_backprop.py  # ✅ Multi-layer backprop
     ├── weight_init.py           # ✅ Weight initialization
-    ├── dead_relu_detector.py    # Dead ReLU detector
+    ├── dead_relu_detector.py    # ✅ Dead ReLU detector
     ├── pytorch_basics.py        # ✅ PyTorch basics
     ├── digit_classifier.py      # Handwritten digit classifier (MNIST)
     ├── sentiment.py             # Sentiment analysis
@@ -84,7 +84,7 @@ mini-GPT/
 - [x] `backprop.py` — Backpropagation
 - [x] `multi_layer_backprop.py` — Multi-layer backprop
 - [x] `weight_init.py` — Weight initialization
-- [ ] `dead_relu_detector.py` — Dead ReLU detector
+- [x] `dead_relu_detector.py` — Dead ReLU detector
 - [x] `pytorch_basics.py` — PyTorch basics
 - [ ] `digit_classifier.py` — Digit classifier
 - [ ] `sentiment.py` — Sentiment analysis
