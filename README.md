@@ -5,15 +5,15 @@ through the [NeetCode Machine Learning](https://neetcode.io/practice/machine-lea
 
 The end goal: **build a mini GPT from scratch**.
 
-### Progress (18/36 completed)
+### Progress (19/36 completed)
 
 | Directory | Files | Solved | Status |
 |-----------|-------|--------|--------|
-| `foundations/` | 17 | 15 | 🟡 15/17 |
+| `foundations/` | 17 | 16 | 🟡 16/17 |
 | `model/` | 11 | 3 | 🟡 3/11 |
 | `data/` | 6 | 0 | ⬜ 0/6 |
 | Root (`train.py`, `generate.py`) | 2 | 0 | ⬜ 0/2 |
-| **Total** | **36** | **18** | **🟡 18/36** |
+| **Total** | **36** | **19** | **🟡 19/36** |
 
 ---
 
@@ -62,7 +62,7 @@ mini-GPT/
     ├── weight_init.py           # ✅ Weight initialization
     ├── dead_relu_detector.py    # ✅ Dead ReLU detector
     ├── pytorch_basics.py        # ✅ PyTorch basics
-    ├── digit_classifier.py      # Handwritten digit classifier (MNIST)
+    ├── digit_classifier.py      # ✅ Handwritten digit classifier (MNIST)
     ├── sentiment.py             # Sentiment analysis
     ├── training_loop.py         # ✅ Training loop mechanics
     └── training_diagnostics.py  # ✅ Diagnostics & learning rate
@@ -86,7 +86,7 @@ mini-GPT/
 - [x] `weight_init.py` — Weight initialization
 - [x] `dead_relu_detector.py` — Dead ReLU detector
 - [x] `pytorch_basics.py` — PyTorch basics
-- [ ] `digit_classifier.py` — Digit classifier
+- [x] `digit_classifier.py` — Digit classifier
 - [ ] `sentiment.py` — Sentiment analysis
 - [x] `training_loop.py` — Training loop mechanics
 - [x] `training_diagnostics.py` — Training diagnostics
