@@ -5,15 +5,15 @@ through the [NeetCode Machine Learning](https://neetcode.io/practice/machine-lea
 
 The end goal: **build a mini GPT from scratch**.
 
-### Progress (20/36 completed)
+### Progress (21/36 completed)
 
 | Directory | Files | Solved | Status |
 |-----------|-------|--------|--------|
 | `foundations/` | 17 | 16 | 🟡 16/17 |
 | `model/` | 11 | 4 | 🟡 4/11 |
-| `data/` | 6 | 0 | ⬜ 0/6 |
+| `data/` | 6 | 1 | 🟡 1/6 |
 | Root (`train.py`, `generate.py`) | 2 | 0 | ⬜ 0/2 |
-| **Total** | **36** | **20** | **🟡 20/36** |
+| **Total** | **36** | **21** | **🟡 21/36** |
 
 ---
 
@@ -46,7 +46,7 @@ mini-GPT/
 │   ├── vocab.py                 # Character-level encode/decode
 │   ├── tokenizer_utils.py       # Tokenization edge cases
 │   ├── loader.py                # Batched training data
-│   └── dataset.py               # GPT dataset preparation
+│   └── dataset.py               # ✅ GPT dataset preparation
 │
 └── foundations/                 # Neural network primitives & math foundations
     ├── gradient_descent.py      # ✅ Gradient descent optimization
@@ -110,7 +110,7 @@ mini-GPT/
 - [ ] `vocab.py` — Character-level encode/decode
 - [ ] `tokenizer_utils.py` — Tokenization edge cases
 - [ ] `loader.py` — Batched training data
-- [ ] `dataset.py` — GPT dataset preparation
+- [x] `dataset.py` — GPT dataset preparation
 
 ### Root Pipeline
 - [ ] `train.py` — GPT training loop
