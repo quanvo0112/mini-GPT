@@ -5,15 +5,15 @@ through the [NeetCode Machine Learning](https://neetcode.io/practice/machine-lea
 
 The end goal: **build a mini GPT from scratch**.
 
-### Progress (24/36 completed)
+### Progress (25/36 completed)
 
 | Directory | Files | Solved | Status |
 |-----------|-------|--------|--------|
 | `foundations/` | 17 | 17 | 🟢 17/17 |
-| `model/` | 11 | 6 | 🟡 6/11 |
+| `model/` | 11 | 7 | 🟡 7/11 |
 | `data/` | 6 | 1 | 🟡 1/6 |
 | Root (`train.py`, `generate.py`) | 2 | 0 | ⬜ 0/2 |
-| **Total** | **36** | **24** | **🟡 24/36** |
+| **Total** | **36** | **25** | **🟡 25/36** |
 
 ---
 
@@ -34,7 +34,7 @@ mini-GPT/
 │   ├── embeddings.py            # ✅ Word embeddings
 │   ├── positional_encoding.py   # ✅ Positional encoding
 │   ├── attention.py             # ✅ Self-attention head
-│   ├── multi_head_attention.py  # Multi-headed self-attention
+│   ├── multi_head_attention.py  # ✅ Multi-headed self-attention
 │   ├── transformer.py           # Transformer block
 │   ├── gpt.py                   # GPT model
 │   ├── kv_cache.py              # KV-Cache for fast inference
@@ -98,7 +98,7 @@ mini-GPT/
 - [x] `embeddings.py` — Word embeddings
 - [x] `positional_encoding.py` — Positional encoding
 - [x] `attention.py` — Self-attention head
-- [ ] `multi_head_attention.py` — Multi-headed self-attention
+- [x] `multi_head_attention.py` — Multi-headed self-attention
 - [ ] `transformer.py` — Transformer block
 - [ ] `gpt.py` — GPT model
 - [ ] `kv_cache.py` — KV-Cache for fast inference
