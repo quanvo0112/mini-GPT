@@ -5,15 +5,15 @@ through the [NeetCode Machine Learning](https://neetcode.io/practice/machine-lea
 
 The end goal: **build a mini GPT from scratch**.
 
-### Progress (25/36 completed)
+### Progress (26/36 completed)
 
 | Directory | Files | Solved | Status |
 |-----------|-------|--------|--------|
 | `foundations/` | 17 | 17 | 🟢 17/17 |
-| `model/` | 11 | 7 | 🟡 7/11 |
+| `model/` | 11 | 8 | 🟡 8/11 |
 | `data/` | 6 | 1 | 🟡 1/6 |
 | Root (`train.py`, `generate.py`) | 2 | 0 | ⬜ 0/2 |
-| **Total** | **36** | **25** | **🟡 25/36** |
+| **Total** | **36** | **26** | **🟡 26/36** |
 
 ---
 
@@ -35,7 +35,7 @@ mini-GPT/
 │   ├── positional_encoding.py   # ✅ Positional encoding
 │   ├── attention.py             # ✅ Self-attention head
 │   ├── multi_head_attention.py  # ✅ Multi-headed self-attention
-│   ├── transformer.py           # Transformer block
+│   ├── transformer.py           # ✅ Transformer block
 │   ├── gpt.py                   # GPT model
 │   ├── kv_cache.py              # KV-Cache for fast inference
 │   └── grouped_query_attention.py # Grouped query attention
@@ -99,7 +99,7 @@ mini-GPT/
 - [x] `positional_encoding.py` — Positional encoding
 - [x] `attention.py` — Self-attention head
 - [x] `multi_head_attention.py` — Multi-headed self-attention
-- [ ] `transformer.py` — Transformer block
+- [x] `transformer.py` — Transformer block
 - [ ] `gpt.py` — GPT model
 - [ ] `kv_cache.py` — KV-Cache for fast inference
 - [ ] `grouped_query_attention.py` — Grouped query attention
