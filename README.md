@@ -5,15 +5,15 @@ through the [NeetCode Machine Learning](https://neetcode.io/practice/machine-lea
 
 The end goal: **build a mini GPT from scratch**.
 
-### Progress (22/36 completed)
+### Progress (23/36 completed)
 
 | Directory | Files | Solved | Status |
 |-----------|-------|--------|--------|
 | `foundations/` | 17 | 17 | 🟢 17/17 |
-| `model/` | 11 | 4 | 🟡 4/11 |
+| `model/` | 11 | 5 | 🟡 5/11 |
 | `data/` | 6 | 1 | 🟡 1/6 |
 | Root (`train.py`, `generate.py`) | 2 | 0 | ⬜ 0/2 |
-| **Total** | **36** | **22** | **🟡 22/36** |
+| **Total** | **36** | **23** | **🟡 23/36** |
 
 ---
 
@@ -32,7 +32,7 @@ mini-GPT/
 │   ├── batch_normalization.py   # ✅ Batch normalization
 │   ├── rms_normalization.py     # ✅ RMS normalization
 │   ├── embeddings.py            # ✅ Word embeddings
-│   ├── positional_encoding.py   # Positional encoding
+│   ├── positional_encoding.py   # ✅ Positional encoding
 │   ├── attention.py             # Self-attention head
 │   ├── multi_head_attention.py  # Multi-headed self-attention
 │   ├── transformer.py           # Transformer block
@@ -96,7 +96,7 @@ mini-GPT/
 - [x] `batch_normalization.py` — Batch normalization
 - [x] `rms_normalization.py` — RMS normalization
 - [x] `embeddings.py` — Word embeddings
-- [ ] `positional_encoding.py` — Positional encoding
+- [x] `positional_encoding.py` — Positional encoding
 - [ ] `attention.py` — Self-attention head
 - [ ] `multi_head_attention.py` — Multi-headed self-attention
 - [ ] `transformer.py` — Transformer block
